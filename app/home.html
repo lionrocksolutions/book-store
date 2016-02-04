@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en" ng-app="bookstoreApp">
+<head>
+	<meta charset="utf-8">
+	<title>Book Store</title>
+	<link rel="stylesheet" href="css/style.css" media="all">
+	<link rel="shortcut icon" href="css/images/favicon.ico" />
+	<!-- This code downloads the angular.js script which registers a callback that will be executed by the browser when the containing HTML page is fully downloaded. 
+			When the callback is executed,	 Angular looks for the ngApp directive. If Angular finds the directive, 
+			it will bootstrap the application with the root of the application DOM being the element on which the ngApp directive was defined. -->
+	
+	<script src="bower_components/angular/angular.js" type="text/javascript"></script>
+	<script src="js/controllers.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+	
+	<!--[if IE 6]>
+			<script type="text/javascript" src="js/png-fix.js"></script>
+		<![endif]-->
+	<script type="text/javascript" src="js/functions.js"></script>
+	
+</head>
+<body ng-controller="BookListCtrl">
+	<!-- Header -->
+	<div id="header" class="shell">
+		<div id="logo">
+			<h1>
+				<a href="#">BestSeller</a>
+			</h1>
+			<span><a href="#">free css template</a></span>
+		</div>
+		<!-- Navigation -->
+		<div id="navigation">
+			<ul>
+				<li><a href="#" class="active">Home</a></li>
+				<li><a href="#">Products</a></li>
+				<li><a href="#">Promotions</a></li>
+				<li><a href="#">Profile</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contacts</a></li>
+			</ul>
+		</div>
+		<!-- End Navigation -->
+		<div class="cl">&nbsp;</div>
+		<!-- Login-details -->
+		<div id="login-details">
+			<p>
+				Welcome, <a href="#" id="user">Guest</a> .
+			</p>
+			<p>
+				<a href="#" class="cart"><img src="css/images/cart-icon.png"
+					alt="" /></a>Shopping Cart (0) <a href="#" class="sum">$0.00</a>
+			</p>
+		</div>
+		<!-- End Login-details -->
+	</div>
+	<!-- End Header -->
+	<!-- Slider -->
+	<div id="slider">
+		<div class="shell"></div>
+	</div>
+	<!-- End Slider -->
+	<!-- Main -->
+	<div id="main" class="shell">
+			<div id="sidebar">
+			</div>
+			<!-- End Sidebar -->
+			
+			<!-- Content -->
+		<div id="content">
+			<!-- Products -->
+			<div class="products">
+				<h3>Featured Products</h3>
+				<ul>
+				  <li ng-repeat="books in books">
+				  <div class="product">
+				  <a href="#" class="info">
+				  	<span style="color:white;">{{books.name}}</span>
+				  	<p style="color:white;">{{books.snippet}}</p>
+				 </a>
+				  </div>				  
+				  </li>
+				  <li>
+						<div class="product">
+							<a href="#" class="info">
+								<span class="holder">
+									<img src="css/images/image01.jpg" alt="" />
+									<span class="book-name">Book Name</span>
+									<span class="author">by John Smith</span>
+									<span class="description">Maecenas vehicula ante eu enim pharetra<br />scelerisque dignissim <br />sollicitudin nisi</span>
+								</span>
+							</a>
+							<a href="#" class="buy-btn">BUY NOW <span class="price"><span class="low">$</span>22<span class="high">00</span></span></a>
+						</div>
+				</li>
+				</ul>
+			</div>
+			<!-- End Products -->
+		</div>
+		<!-- End Content -->
+	</div>
+	<!-- End Main -->
+	
+	
+</body>
+</html>

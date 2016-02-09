@@ -71,26 +71,18 @@
 			<!-- Products -->
 			<div class="products">
 				<h3>Featured Products</h3>
-				<ul>
-				  <li ng-repeat="books in books">
-				  <div class="product">
-				  <a href="#" class="info">
-				  	<span style="color:white;">{{books.name}}</span>
-				  	<p style="color:white;">{{books.snippet}}</p>
-				 </a>
-				  </div>				  
-				  </li>
-				  <li>
+				<ul>				  
+				  <li ng-repeat="book in books">
 						<div class="product">
 							<a href="#" class="info">
 								<span class="holder">
-									<img src="css/images/image01.jpg" alt="" />
-									<span class="book-name">Book Name</span>
-									<span class="author">by John Smith</span>
-									<span class="description">Maecenas vehicula ante eu enim pharetra<br />scelerisque dignissim <br />sollicitudin nisi</span>
+									<img ng-src="{{book.imageUrl}}" alt="" />
+									<span class="book-name">{{book.bookName}}</span>
+									<span class="author">{{book.author}}</span>
+									<span class="description">{{book.description}}</span>
 								</span>
 							</a>
-							<a href="#" class="buy-btn">BUY NOW <span class="price"><span class="low">$</span>22<span class="high">00</span></span></a>
+							<a href="#" class="buy-btn">BUY NOW <span class="price"><span class="low">{{book.currencySymbol}}</span>{{book.price}}<span class="high">00</span></span></a>
 						</div>
 				</li>
 				</ul>

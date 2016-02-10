@@ -1,26 +1,33 @@
 <!-- Main -->
 <div id="main" class="shell">
-<!-- Content -->
-	<div id="content">
-		<!-- Products -->
-		<div class="products">
-			<h3>A Book</h3>
-							
-					<div class="product">
-						<span class="holder"> <img
-								ng-src="{{book.imageUrl}}" alt="" /> <span class="book-name">{{book.bookName}}</span>
-								<span class="author">{{book.author}}</span> <span
-								class="description">{{book.description}}</span>
-						</span>
-						 <a href="#" class="buy-btn">BUY NOW <span class="price"><span
-								class="low">{{book.currencySymbol}}</span>{{book.price}}<span
-								class="high">00</span></span></a>
-					</div>
-			
-			<!-- End Products -->
-		</div>
-		<div class="cl">&nbsp;</div>
+    <div id="sidebar"></div>
+    <!-- End Sidebar -->
 
-	</div>
-	<div class="cl">&nbsp;</div>
-</div>	
+    <!-- Content -->
+    <div id="content">
+        <!-- Products -->
+        <div class="products">
+            <h3>A Book</h3>     
+             <ul>
+               <li>
+                   <div class="product">
+                        <a href="#" class="info"> <span class="holder"> <img
+                                ng-src="{{book.imageUrl}}" alt="" /> <span class="book-name">{{book.bookName}}</span>
+                                <span class="author">{{book.author}}</span> <span
+                                class="description">{{book.description}}</span>
+                        </span>
+                         </a><a href="#" class="buy-btn">BUY NOW <span class="price"><span
+                                class="low">{{book.currencySymbol}}</span>{{book.price}}<span
+                                class="high">00</span></span></a>
+                    </div>
+                </li>
+              </ul>    
+            <!-- End Products -->
+        </div>
+        <div class="cl">&nbsp;</div>
+
+    </div>
+     <!-- End Content -->
+    <div class="cl">&nbsp;</div>
+    </div>
+    <!-- End Main -->

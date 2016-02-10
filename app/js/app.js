@@ -13,7 +13,7 @@ bookStoreApp.config(['$routeProvider', function($routeProvider) {
 		controller: 'BookListCtrl'		
 	}).when('/books/:bookId', {
 		templateUrl: 'partials/book-detail.html',
-		controler: 'BookDetailCtrl'		
+		controller: 'BookDetailCtrl'		
 	}).otherwise({
 		redirectTo: '/books'		
 	});

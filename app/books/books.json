@@ -1,6 +1,6 @@
 [ 
   {
-	"id": "1",
+	"id": "girl-Devil-Elixir",
 	"bookName" : "Girl Devil's Elixir",
 	"author" : "Raymond Khoury",
 	"description" : "This is an epic book about Elixir by Raymond Khoury",
@@ -8,7 +8,7 @@
 	"price" : "22",
 	"imageUrl" : "css/images/image01.jpg"
 }, {
-	"id": "2",
+	"id": "The-Devil-Elixir",
 	"bookName" : "The Devil's Elixir",
 	"author" : "Zaymond Khoury",
 	"description" : "This is an epic book about Elixir by Raymond Khoury",
@@ -16,7 +16,7 @@
 	"price" : "22",
 	"imageUrl" : "css/images/image02.jpg"
 }, {
-	"id": "3",
+	"id": "Bing-Devil-Elixir",
 	"bookName" : "Bing Devil's Elixir",
 	"author" : "Kaymond Khoury",
 	"description" : "This is an epic book about Elixir by Raymond Khoury ",
@@ -24,7 +24,7 @@
 	"price" : "22",
 	"imageUrl" : "css/images/image03.jpg"
 }, {
-	"id": "4",
+	"id": "Frank-Devil-Elixir",
 	"bookName" : "Frank Devil's Elixir",
 	"author" : "Taymond Khoury",
 	"description" : "This is an epic book about Elixir by Raymond Khoury",

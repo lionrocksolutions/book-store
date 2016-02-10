@@ -1,10 +1,26 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
+<!-- Main -->
+<div id="main" class="shell">
+<!-- Content -->
+	<div id="content">
+		<!-- Products -->
+		<div class="products">
+			<h3>A Book</h3>
+							
+					<div class="product">
+						<span class="holder"> <img
+								ng-src="{{book.imageUrl}}" alt="" /> <span class="book-name">{{book.bookName}}</span>
+								<span class="author">{{book.author}}</span> <span
+								class="description">{{book.description}}</span>
+						</span>
+						 <a href="#" class="buy-btn">BUY NOW <span class="price"><span
+								class="low">{{book.currencySymbol}}</span>{{book.price}}<span
+								class="high">00</span></span></a>
+					</div>
+			
+			<!-- End Products -->
+		</div>
+		<div class="cl">&nbsp;</div>
 
-</body>
-</html>
+	</div>
+	<div class="cl">&nbsp;</div>
+</div>	

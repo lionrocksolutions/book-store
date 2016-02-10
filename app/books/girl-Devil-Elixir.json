@@ -1,0 +1,9 @@
+{
+	"id": "Girl-Devil-Elixir",
+	"bookName" : "Girl Devil's Elixir",
+	"author" : "Raymond Khoury",
+	"description" : "This is an epic book about Elixir by Raymond Khoury",
+	"currencySymbol" : "$",
+	"price" : "22",
+	"imageUrl" : "css/images/image01.jpg"	 
+}

@@ -10,7 +10,10 @@ bookStoreControlers.controller('BookListCtrl' , ['$scope' , '$http' , function($
 }]);
 
 
-bookStoreControlers.controller('BookDetailCtrl', ['$scope', '$routeParams',
-		function($scope, $routeParams){
-			$scope.bookId = $routeParams.bookId;
+bookStoreControlers.controller('BookDetailCtrl', ['$scope', '$routeParams', '$http', 
+		function($scope, $routeParams, $http){
+			$http.get('books/' + $routeParams.bookId + '.json').success(function(data) {
+				$scope.books = data;
+				concole.log(data);
+			});
 }]);

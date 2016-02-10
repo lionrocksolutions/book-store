@@ -1,0 +1,32 @@
+<!-- Main -->
+<div id="main" class="shell">
+	<div id="sidebar"></div>
+	<!-- End Sidebar -->
+
+	<!-- Content -->
+	<div id="content">
+		<!-- Products -->
+		<div class="products">
+			<h3>Featured Products</h3>
+			<ul>
+				<li ng-repeat="book in books">
+					<div class="product">
+						<a href="#" class="info"> <span class="holder"> <img
+								ng-src="{{book.imageUrl}}" alt="" /> <span class="book-name">{{book.bookName}}</span>
+								<span class="author">{{book.author}}</span> <span
+								class="description">{{book.description}}</span>
+						</span>
+						</a> <a href="#" class="buy-btn">BUY NOW <span class="price"><span
+								class="low">{{book.currencySymbol}}</span>{{book.price}}<span
+								class="high">00</span></span></a>
+					</div>
+				</li>
+			</ul>
+			<!-- End Products -->
+		</div>
+		<div class="cl">&nbsp;</div>
+
+	</div>
+	<div class="cl">&nbsp;</div>
+	</div>
+	<!-- End Main -->

@@ -1,36 +1,35 @@
-[
-			{
-				  "bookName": "Girl Devil's Elixir",
-				  "author": "Raymond Khoury",
-			      "description": "This is an epic book about Elixir by Raymond Khoury",
-			      "currencySymbol": "$",
-				  "price": "22",
-				  "imageUrl": "css/images/image01.jpg"
-			},
-			{
-				  "bookName": "The Devil's Elixir",
-				  "author": "Zaymond Khoury",
-			      "description": "This is an epic book about Elixir by Raymond Khoury",
-			      "currencySymbol": "$",
-				  "price": "22",
-				  "imageUrl": "css/images/image02.jpg"
-			},
-			{
-				  "bookName": "Bing Devil's Elixir",
-				  "author": "Kaymond Khoury",
-			      "description": "This is an epic book about Elixir by Raymond Khoury ",
-			      "currencySymbol": "$",
-				  "price": "22",
-				  "imageUrl": "css/images/image03.jpg"
-			},
-			{
-				  "bookName": "Frank Devil's Elixir",
-				  "author": "Taymond Khoury",
-			      "description": "This is an epic book about Elixir by Raymond Khoury",
-			      "currencySymbol": "$",
-				  "price": "22",
-				  "imageUrl": "css/images/image04.jpg"
-			}
-
-
+[ 
+  {
+	"id": "1",
+	"bookName" : "Girl Devil's Elixir",
+	"author" : "Raymond Khoury",
+	"description" : "This is an epic book about Elixir by Raymond Khoury",
+	"currencySymbol" : "$",
+	"price" : "22",
+	"imageUrl" : "css/images/image01.jpg"
+}, {
+	"id": "2",
+	"bookName" : "The Devil's Elixir",
+	"author" : "Zaymond Khoury",
+	"description" : "This is an epic book about Elixir by Raymond Khoury",
+	"currencySymbol" : "$",
+	"price" : "22",
+	"imageUrl" : "css/images/image02.jpg"
+}, {
+	"id": "3",
+	"bookName" : "Bing Devil's Elixir",
+	"author" : "Kaymond Khoury",
+	"description" : "This is an epic book about Elixir by Raymond Khoury ",
+	"currencySymbol" : "$",
+	"price" : "22",
+	"imageUrl" : "css/images/image03.jpg"
+}, {
+	"id": "4",
+	"bookName" : "Frank Devil's Elixir",
+	"author" : "Taymond Khoury",
+	"description" : "This is an epic book about Elixir by Raymond Khoury",
+	"currencySymbol" : "$",
+	"price" : "22",
+	"imageUrl" : "css/images/image04.jpg"
+}
 ]

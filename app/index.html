@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" ng-app="bookstoreApp">
+<html lang="en" ng-app="bookStoreApp">
 <head>
 	<meta charset="utf-8">
 	<title>Book Store</title>
@@ -10,6 +10,9 @@
 			it will bootstrap the application with the root of the application DOM being the element on which the ngApp directive was defined. -->
 	
 	<script src="bower_components/angular/angular.js" type="text/javascript"></script>
+	<script src="bower_components/angular-route/angular-route.js"></script>
+	<script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
 	<script src="js/controllers.js" type="text/javascript"></script>
 	<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
 	<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
@@ -20,7 +23,7 @@
 	<script type="text/javascript" src="js/functions.js"></script>
 	
 </head>
-<body ng-controller="BookListCtrl">
+<body>
 	<!-- Header -->
 	<div id="header" class="shell">
 		<div id="logo">
@@ -57,42 +60,23 @@
 	<!-- End Header -->
 	<!-- Slider -->
 	<div id="slider">
-		<div class="shell"></div>
+		<div class="shell">
+		
+		</div>
 	</div>
 	<!-- End Slider -->
-	<!-- Main -->
-	<div id="main" class="shell">
-			<div id="sidebar">
+	
+	<div ng-view></div>
+	
+	<!-- Footer -->
+	<div id="footer" class="shell">
+		<div class="top">
+			<div class="cnt">
+				<div class="col about">
+					<h4>About BestSellers</h4>
+				
+				</div>
 			</div>
-			<!-- End Sidebar -->
-			
-			<!-- Content -->
-		<div id="content">
-			<!-- Products -->
-			<div class="products">
-				<h3>Featured Products</h3>
-				<ul>				  
-				  <li ng-repeat="book in books">
-						<div class="product">
-							<a href="#" class="info">
-								<span class="holder">
-									<img ng-src="{{book.imageUrl}}" alt="" />
-									<span class="book-name">{{book.bookName}}</span>
-									<span class="author">{{book.author}}</span>
-									<span class="description">{{book.description}}</span>
-								</span>
-							</a>
-							<a href="#" class="buy-btn">BUY NOW <span class="price"><span class="low">{{book.currencySymbol}}</span>{{book.price}}<span class="high">00</span></span></a>
-						</div>
-				</li>
-				</ul>
-			</div>
-			<!-- End Products -->
 		</div>
-		<!-- End Content -->
 	</div>
-	<!-- End Main -->
-	
-	
-</body>
 </html>

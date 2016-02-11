@@ -5,7 +5,8 @@
 
 var bookStoreApp = angular.module('bookStoreApp', [
                                 'ngRoute',
-                                 'bookStoreControlers']);
+                                 'bookStoreControlers',
+                                 'booksAppFilters']);
 
 bookStoreApp.config(['$routeProvider', function($routeProvider) {
 	$routeProvider.when('/books', {

@@ -80,6 +80,9 @@ textarea { overflow: auto; }
 #content { float: right; display: inline; width: 635px; }
 #content h3 { padding: 0 0 7px 3px; border-bottom: solid 4px #eaeaea; margin-bottom: 12px; }
 
+.changethisone span{background-color: #FFF;}
+.changethisone input{ border-right-style:none; float:right; width:350px; height:20px; font-size: 15px;}
+
 .products ul { list-style: none; position: relative; width: 660px; margin-left: -7px; width: 660px; }
 .products ul li { float: left; display: inline; width: 150px; height: 343px; margin: 0 15px 14px 0; }
 .products ul li a.info { display: block; padding: 7px; width: 136px; height: 329px; }

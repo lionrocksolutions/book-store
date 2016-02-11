@@ -1,17 +1,22 @@
 <!-- Main -->
 <div id="main" class="shell">
-	<div id="sidebar"></div>
-	<!-- End Sidebar -->
-
+	
 	<!-- Content -->
 	<div id="content">
+	
 		<!-- Products -->
 		<div class="products">
+		<div class="input-group changethisone">
+		    <input type="text"  class="form-control" ng-model="query" placeholder="Search..."/>
+		    <span class="input-group-addon">
+		        <span class="glyphicon glyphicon-search"></span>
+		    </span>
+		</div>
 			<h3>Featured Products</h3>
 			<ul>
-				<li ng-repeat="book in books">
+				<li ng-repeat="book in books  | filter:query" >
 					<div class="product">
-						<a href="#/books/{{book.id}}" class="info"> <span class="holder"> <img
+						<a href="#/books/{{book.id}}" class="info"> <span class="holder"> <img 
 								ng-src="{{book.imageUrl}}" alt="" /> <span class="book-name">{{book.bookName}}</span>
 								<span class="author">{{book.author}}</span> <span
 								class="description">{{book.description}}</span>

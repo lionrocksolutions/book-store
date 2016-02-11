@@ -1,35 +1,132 @@
-[ 
-  {
-	"id": "girl-Devil-Elixir",
-	"bookName" : "Girl Devil's Elixir",
-	"author" : "Raymond Khoury",
-	"description" : "This is an epic book about Elixir by Raymond Khoury",
-	"currencySymbol" : "$",
-	"price" : "22",
-	"imageUrl" : "css/images/image01.jpg"
-}, {
-	"id": "The-Devil-Elixir",
-	"bookName" : "The Devil's Elixir",
-	"author" : "Zaymond Khoury",
-	"description" : "This is an epic book about Elixir by Raymond Khoury",
-	"currencySymbol" : "$",
-	"price" : "22",
-	"imageUrl" : "css/images/image02.jpg"
-}, {
-	"id": "Bing-Devil-Elixir",
-	"bookName" : "Bing Devil's Elixir",
-	"author" : "Kaymond Khoury",
-	"description" : "This is an epic book about Elixir by Raymond Khoury ",
-	"currencySymbol" : "$",
-	"price" : "22",
-	"imageUrl" : "css/images/image03.jpg"
-}, {
-	"id": "Frank-Devil-Elixir",
-	"bookName" : "Frank Devil's Elixir",
-	"author" : "Taymond Khoury",
-	"description" : "This is an epic book about Elixir by Raymond Khoury",
-	"currencySymbol" : "$",
-	"price" : "22",
-	"imageUrl" : "css/images/image04.jpg"
-}
+	[ 
+	  {
+		"id": "girl-Devil-Elixir",
+		"bookName" : "Girl Devil's Elixir",
+		"author" : "Raymond Khoury",
+		"description" : "This is an epic book about Elixir by Raymond Khoury",
+		"currencySymbol" : "$",
+		"price" : "22",
+		"imageUrl" : "css/images/image01.jpg"
+	}, {
+		"id": "The-Devil-Elixir",
+		"bookName" : "The Devil's Elixir",
+		"author" : "Zaymond Khoury",
+		"description" : "This is an epic book about Elixir by Raymond Khoury",
+		"currencySymbol" : "$",
+		"price" : "22",
+		"imageUrl" : "css/images/image02.jpg"
+	}, {
+		"id": "Bing-Devil-Elixir",
+		"bookName" : "Bing Devil's Elixir",
+		"author" : "Kaymond Khoury",
+		"description" : "This is an epic book about Elixir by Raymond Khoury ",
+		"currencySymbol" : "$",
+		"price" : "22",
+		"imageUrl" : "css/images/image03.jpg"
+	}, {
+		"id": "Frank-Devil-Elixir",
+		"bookName" : "Frank Devil's Elixir",
+		"author" : "Taymond Khoury",
+		"description" : "This is an epic book about Elixir by Raymond Khoury",
+		"currencySymbol" : "$",
+		"price" : "22",
+		"imageUrl" : "css/images/image04.jpg"
+	},{
+		"id": "Frank-Devil-Elixir",
+		"bookName" : "Frank Devil's Elixir",
+		"author" : "Taymond Khoury",
+		"description" : "This is an epic book about Elixir by Raymond Khoury",
+		"currencySymbol" : "$",
+		"price" : "22",
+		"imageUrl" : "css/images/image04.jpg"
+	},{
+		"id": "Frank-Devil-Elixir",
+		"bookName" : "Frank Devil's Elixir",
+		"author" : "Taymond Khoury",
+		"description" : "This is an epic book about Elixir by Raymond Khoury",
+		"currencySymbol" : "$",
+		"price" : "22",
+		"imageUrl" : "css/images/image04.jpg"
+	},{
+		"id": "Frank-Devil-Elixir",
+		"bookName" : "Frank Devil's Elixir",
+		"author" : "Taymond Khoury",
+		"description" : "This is an epic book about Elixir by Raymond Khoury",
+		"currencySymbol" : "$",
+		"price" : "22",
+		"imageUrl" : "css/images/image04.jpg"
+	},{
+		"id": "Frank-Devil-Elixir",
+		"bookName" : "Frank Devil's Elixir",
+		"author" : "Taymond Khoury",
+		"description" : "This is an epic book about Elixir by Raymond Khoury",
+		"currencySymbol" : "$",
+		"price" : "22",
+		"imageUrl" : "css/images/image04.jpg"
+	},{
+		"id": "Frank-Devil-Elixir",
+		"bookName" : "Frank Devil's Elixir",
+		"author" : "Taymond Khoury",
+		"description" : "This is an epic book about Elixir by Raymond Khoury",
+		"currencySymbol" : "$",
+		"price" : "22",
+		"imageUrl" : "css/images/image04.jpg"
+	},{
+		"id": "Frank-Devil-Elixir",
+		"bookName" : "Frank Devil's Elixir",
+		"author" : "Taymond Khoury",
+		"description" : "This is an epic book about Elixir by Raymond Khoury",
+		"currencySymbol" : "$",
+		"price" : "22",
+		"imageUrl" : "css/images/image04.jpg"
+	},{
+		"id": "Frank-Devil-Elixir",
+		"bookName" : "Frank Devil's Elixir",
+		"author" : "Taymond Khoury",
+		"description" : "This is an epic book about Elixir by Raymond Khoury",
+		"currencySymbol" : "$",
+		"price" : "22",
+		"imageUrl" : "css/images/image04.jpg"
+	},{
+		"id": "Frank-Devil-Elixir",
+		"bookName" : "Frank Devil's Elixir",
+		"author" : "Taymond Khoury",
+		"description" : "This is an epic book about Elixir by Raymond Khoury",
+		"currencySymbol" : "$",
+		"price" : "22",
+		"imageUrl" : "css/images/image04.jpg"
+	},{
+		"id": "Frank-Devil-Elixir",
+		"bookName" : "Frank Devil's Elixir",
+		"author" : "Taymond Khoury",
+		"description" : "This is an epic book about Elixir by Raymond Khoury",
+		"currencySymbol" : "$",
+		"price" : "22",
+		"imageUrl" : "css/images/image04.jpg"
+	},{
+		"id": "Frank-Devil-Elixir",
+		"bookName" : "Frank Devil's Elixir",
+		"author" : "Taymond Khoury",
+		"description" : "This is an epic book about Elixir by Raymond Khoury",
+		"currencySymbol" : "$",
+		"price" : "22",
+		"imageUrl" : "css/images/image04.jpg"
+	},{
+		"id": "Frank-Devil-Elixir",
+		"bookName" : "Frank Devil's Elixir",
+		"author" : "Taymond Khoury",
+		"description" : "This is an epic book about Elixir by Raymond Khoury",
+		"currencySymbol" : "$",
+		"price" : "22",
+		"imageUrl" : "css/images/image04.jpg"
+	},{
+		"id": "Frank-Devil-Elixir",
+		"bookName" : "Frank Devil's Elixir",
+		"author" : "Taymond Khoury",
+		"description" : "This is an epic book about Elixir by Raymond Khoury",
+		"currencySymbol" : "$",
+		"price" : "22",
+		"imageUrl" : "css/images/image04.jpg"
+	}
+	
 ]
